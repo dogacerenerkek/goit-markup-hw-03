@@ -10,11 +10,29 @@ header a {
 
   font-weight: 500;
 }
+nav ul {
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+header {
+  border-bottom: 1px solid #E7E9FC;
+  display: flex;
+  align-items: center;
+  padding: 16px 8px;
+}
 .address {
   font-weight: 400;
+  display: flex;
+  gap: 40px;
+  margin-left: auto;
 }
 
 .baslik {
+  display: flex;
+  margin-right: 76px;
+  margin-left: 156px;
   font-size: 18px;
   font-weight: 700;
   font-family: "Raleway", "Roboto", sans-serif;
@@ -41,6 +59,10 @@ button {
 .birinci {
   background-color: #2e2f42;
   padding: 60px;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .ikinci {
   color: #fff;
@@ -49,7 +71,15 @@ button {
   line-height: 1.0714;
   font-weight: 700;
 }
+.onalti ul {
+  display: flex;
+  gap: 24px;
+  padding: 120px 156px;
+}
 
+.onalti li {
+  flex: 1;
+}
 .onalti p {
   font-size: 16px;
   line-height: 1.5;
@@ -65,15 +95,53 @@ button {
   font-weight: 700;
   letter-spacing: 0.02em;
 }
+.takimimiz {
+  background-color: #f4f4fd;
+    padding: 120px 156px;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.yedi {
+  display: flex;
+  gap: 24px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 72px;
+}
 .yedi h3 {
   font-size: 20px;
   line-height: 1.2;
   font-weight: 500;
   letter-spacing: 0.02em;
+  flex-direction: row;
+    justify-content: space-evenly;
 }
 .yedi p {
   font-size: 16px;
   line-height: 1.5;
+  flex-direction: row;
+    justify-content: space-evenly;
+}
+.portfolyo {
+  padding: 120px 156px;
+  text-align: center;
+  gap: 24px;
+}
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  margin-top: 72px;
+  
+}
+.portfolio li {
+  
+  text-align: left;
+  gap: 24px;
+  
 }
 .portfolio h3 {
   font-size: 20px;
@@ -105,6 +173,10 @@ footer {
   color: #f4f4fd;
   padding: 40px;
   line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-left: 156px;
 }
 footer a {
   font-family: "Raleway", sans-serif;
@@ -115,6 +187,7 @@ footer a {
   letter-spacing: 0.03em;
 }
 body {
+  
   font-family: "Roboto", "Raleway", "Open Sans", "Helvetica Neue", sans-serif;
 }
 a {
