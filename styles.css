@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap");
+
+header a {
+  background-color: #fff;
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  font-weight: 500;
+}
+.address {
+  font-weight: 400;
+}
+
+.baslik {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Raleway", "Roboto", sans-serif;
+}
+#web {
+  color: #4d5ae5;
+}
+#studio {
+  color: #2e2f42;
+}
+#studioiki {
+  color: #f4f4fd;
+}
+button {
+  border: 4px solid #4d5ae5;
+  text-align: center;
+  background-color: #4d5ae5;
+  color: #fff;
+  cursor: pointer;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-size: 16px;
+}
+.birinci {
+  background-color: #2e2f42;
+  padding: 60px;
+}
+.ikinci {
+  color: #fff;
+  font-size: 56px;
+  text-align: center;
+  line-height: 1.0714;
+  font-weight: 700;
+}
+
+.onalti p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.uc {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+.bes {
+  font-size: 36px;
+  line-height: 1.1111;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+.yedi h3 {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.yedi p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.portfolio h3 {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1111;
+}
+.app {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+button:hover {
+  background-color: #404bbf;
+  border: 4px solid #404bbf;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.5;
+}
+footer {
+  background-color: #2e2f42;
+  font-size: 16px;
+  color: #f4f4fd;
+  padding: 40px;
+  line-height: 1.5;
+}
+footer a {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.1667;
+  color: #f4f4fd;
+  letter-spacing: 0.03em;
+}
+body {
+  font-family: "Roboto", "Raleway", "Open Sans", "Helvetica Neue", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+nav :hover {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #404bbf;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+address :hover {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #404bbf;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+}
