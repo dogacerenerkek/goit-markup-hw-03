@@ -1,23 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap");
 
+.container {
+  width: 1158px;
+  width: 100%;
+}
 header a {
   background-color: #fff;
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-
+  padding: 10px 0;
   font-weight: 500;
 }
 nav ul {
   display: flex;
   gap: 40px;
   margin: 0;
-  padding: 0;
+  padding: 10px 0;
 }
 header {
-  border-bottom: 1px solid #E7E9FC;
+  border-bottom: 1px solid #e7e9fc;
   display: flex;
   align-items: center;
   padding: 16px 8px;
@@ -37,8 +41,17 @@ header {
   font-weight: 700;
   font-family: "Raleway", "Roboto", sans-serif;
 }
+.baslik2 {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Raleway", "Roboto", sans-serif;
+}
 #web {
   color: #4d5ae5;
+}
+img {
+  max-width: 100%;
+  height: auto;
 }
 #studio {
   color: #2e2f42;
@@ -96,20 +109,27 @@ button {
   letter-spacing: 0.02em;
 }
 .takimimiz {
-  
   background-color: #f4f4fd;
-    padding: 120px 156px;
-    text-align: center;
-    flex-direction: row;
-    justify-content: space-evenly;
+  padding: 120px 156px;
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
 }
 .yedi {
   display: flex;
   gap: 24px;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   margin-top: 72px;
+}
+.divteam {
+  padding-bottom: 32px;
+}
+.yedi li {
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  width: 264px;
 }
 .yedi h3 {
   display: flex;
@@ -118,19 +138,28 @@ button {
   font-weight: 500;
   letter-spacing: 0.02em;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 .yedi p {
   display: flex;
   font-size: 16px;
   line-height: 1.5;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 .portfolyo {
   padding: 120px 156px;
   text-align: center;
   gap: 24px;
+}
+.sondanonce {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  margin-top: 0;
 }
 .portfolio {
   display: flex;
@@ -138,19 +167,23 @@ button {
   column-gap: 24px;
   row-gap: 48px;
   margin-top: 72px;
-  
+  justify-content: center;
 }
 .portfolio li {
-  
+  width: 360px;
   text-align: left;
   gap: 24px;
-  
+  border: 1px solid #e7e9fc;
+  padding-bottom: 32px;
 }
 .portfolio h3 {
   font-size: 20px;
   line-height: 1.2;
   font-weight: 500;
   letter-spacing: 0.02em;
+}
+.son {
+  padding: 32px 16px;
 }
 h2 {
   font-size: 36px;
@@ -190,7 +223,6 @@ footer a {
   letter-spacing: 0.03em;
 }
 body {
-  
   font-family: "Roboto", "Raleway", "Open Sans", "Helvetica Neue", sans-serif;
 }
 a {
