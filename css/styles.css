@@ -2,8 +2,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap");
 
 .container {
-  width: 1158px;
-  width: 100%;
+  width: 1440px;
+}
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul, ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 header a {
   background-color: #fff;
@@ -18,7 +27,7 @@ nav ul {
   display: flex;
   gap: 40px;
   margin: 0;
-  padding: 10px 0;
+  
 }
 header {
   border-bottom: 1px solid #e7e9fc;
@@ -31,6 +40,7 @@ header {
   display: flex;
   gap: 40px;
   margin-left: auto;
+  margin-right: 156px;
 }
 
 .baslik {
