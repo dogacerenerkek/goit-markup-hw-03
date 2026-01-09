@@ -4,12 +4,19 @@
 .container {
   width: 1440px;
 }
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-ul, ol {
+ul,
+ol {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
@@ -27,7 +34,6 @@ nav ul {
   display: flex;
   gap: 40px;
   margin: 0;
-  
 }
 header {
   border-bottom: 1px solid #e7e9fc;
@@ -81,7 +87,6 @@ button {
   margin-bottom: 188px;
   width: 169px;
   height: 56px;
-
 }
 .birinci {
   background-color: #2e2f42;
